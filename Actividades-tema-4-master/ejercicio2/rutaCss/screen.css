@@ -1,0 +1,43 @@
+#primero .destacado {
+  color: orange;
+  font-size: x-large;
+  margin: 0px;
+  text-align: center;
+}
+
+#primero p {
+  margin: 0px;
+  padding-right: 18em;
+  padding-left: 18em;
+  text-align: justify;
+}
+
+#segundo {
+  padding-top: 4em;
+  padding-right: 18em;
+  padding-left: 18em;
+}
+
+#segundo .destacado {
+  color: #5e8488;
+  font-size: x-large;
+  text-decoration: underline;
+  margin: 0px;
+}
+
+#segundo > p:nth-child(2) {
+  margin: 0px;
+  padding-top: 0px;
+  font-style: oblique;
+}
+
+#parrafos p::first-line {
+  text-align: right;
+  font-style: oblique;
+}
+
+#parrafos p {
+  text-align: right;
+}
+
+/*# sourceMappingURL=screen.css.map */

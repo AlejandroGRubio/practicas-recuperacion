@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      div.mapa_imagen {
+        position: relative;
+      }
+
+      ul.frases li {
+        position: relative;
+        border: medium solid #fff;
+        list-style: none;
+
+        display: none;
+      }
+
+      div.mapa_imagen:hover ul.frases li {
+        display: block;
+      }
+
+      ul.frases li p {
+        position: absolute;
+
+        top: 100%;
+
+        background: #fff;
+        opacity: 0.65;
+
+        margin: 10px 0 0 0;
+        padding: 0.3em;
+
+        display: none;
+      }
+
+      ul.frases li:hover p {
+        display: block;
+      }
+
+      ul.frases li#frase1 {
+        width: 140px;
+        height: 110px;
+        top: -420px;
+        left: 590px;
+      }
+      ul.frases li#frase2 {
+        width: 100px;
+        height: 600px;
+        top: -800px;
+        left: 270px;
+      }
+      ul.frases li#frase3 {
+        width: 60px;
+        height: 60px;
+        top: -1420px;
+        left: 20px;
+      }
+    </style>
+    <title>Flores</title>
+  </head>
+  <body>
+    <div class="mapa_imagen">
+      <img src="./ejercicio5.jpg" alt="flores" />
+
+      <ul class="frases">
+        <li id="frase1"><p>Flor Bonita</p></li>
+        <li id="frase2"><p>Flor grande</p></li>
+        <li id="frase3"><p>Cuidado que pincha</p></li>
+      </ul>
+    </div>
+  </body>
+</html>

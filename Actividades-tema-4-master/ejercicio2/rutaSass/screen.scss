@@ -1,0 +1,52 @@
+$padingCentrar: 18em;
+$paddingInterm: 4em;
+#primero{
+    .destacado{
+        color: orange;
+        font-size: x-large;
+        margin: 0px;
+        text-align: center;
+    }
+    p{
+        margin: 0px;
+        padding-right: $padingCentrar;
+        padding-left: $padingCentrar;
+        text-align: justify;
+    }
+}
+
+
+#segundo{
+    padding-top: $paddingInterm;
+    padding-right: $padingCentrar;
+    padding-left: $padingCentrar;
+    .destacado{
+        color: #5e8488;
+        font-size: x-large;
+        text-decoration: underline;
+        margin: 0px;
+    
+    }
+    > p:nth-child(2){
+        margin: 0px;
+        padding-top: 0px;
+        font-style: oblique;
+    }
+    #parrafos{
+        
+        p{
+            text-align:right;
+            &::first-line{
+                text-align:right;
+                font-style: oblique;
+                
+            }
+        
+        }
+    
+    
+    }
+
+}
+
+
